@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginpage.loginpage.AfterLogin">
+   <children>
+      <ImageView fx:id="welcome" fitHeight="144.0" fitWidth="271.0" layoutX="172.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images__2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Logout" layoutX="262.0" layoutY="347.0" mnemonicParsing="false" onAction="#userLogout" style="-fx-background-color: blue; -fx-border-radius: 5; -fx-text-fill: white; -fx-border-width: 2;" text="Log-out" />
+   </children>
+</AnchorPane>
